@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.10
 
 # install git iproute2
 RUN apt-get update && apt-get -y install git iproute2
